@@ -1,6 +1,6 @@
 *{
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 #ng-shield{	/* */ }
 #ng-shield-outer {
@@ -24,19 +24,19 @@
 }
 
 #ng-shield-outer::after {
-	content: "";
-	position: absolute;
-	bottom: -60px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 123px solid transparent;
-	border-right: 123px solid transparent;
-	border-top: 60px solid #B3B3B3;
+  content: "";
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 123px solid transparent;
+  border-right: 123px solid transparent;
+  border-top: 60px solid #B3B3B3;
 }
 #ng-shield-inner {
-	top: 60px;
-	left: 20px;
+  top: 60px;
+  left: 20px;
   position: absolute;
   width: 215px;
   border-width: 230px 55px 0;
@@ -55,26 +55,26 @@
   border-color: transparent transparent #C4473A;
 }
 #ng-shield-inner::after{
-	content: "";
-	position: absolute;
-	bottom: -50px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 108px solid transparent;
-	border-right: 108px solid transparent;
-	border-top: 50px solid #C4473A;
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 108px solid transparent;
+  border-right: 108px solid transparent;
+  border-top: 50px solid #C4473A;
 }
 #ng-shield-inner-shadow {
-	top: 60px;
-	left: 183px;
+  top: 60px;
+  left: 183px;
   position: absolute;
   width: 108px;
   border-width: 230px 0px 0;
-	border-right: 55px solid transparent;
+  border-right: 55px solid transparent;
   border-style: solid;
   border-color: #9E3D34 transparent;
-	opacity: 0.5;
+  opacity: 0.5;
 }
 #ng-shield-inner-shadow::before{
   content: "";
@@ -83,25 +83,25 @@
   width: 0;
   top: -272px;
   border-width: 0 165px 42px;
-	border-left: 0px solid transparent;
+  border-left: 0px solid transparent;
   border-style: solid;
   border-color: transparent transparent #9E3D34;
 }
 #ng-shield-inner-shadow::after{
-	content: "";
-	position: absolute;
-	bottom: -50px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-right: 109px solid transparent;
-	border-top: 50px solid #9E3D34;
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-right: 109px solid transparent;
+  border-top: 50px solid #9E3D34;
 }
 #ng-shield-font{
-	color:#FFF;
-	font: 410px 'Inconsolata';
-	text-transform: uppercase;
-	position: absolute;
-	top:-65px;
-	left:85px;
+  color:#FFF;
+  font: 410px 'Inconsolata';
+  text-transform: uppercase;
+  position: absolute;
+  top:-65px;
+  left:85px;
 }
